@@ -69,6 +69,9 @@
             "m_Id": "11c32c5147c14590919a3cb26db1cb72"
         },
         {
+            "m_Id": "9f8fe70f5e0a47b094ae7570eb0eb221"
+        },
+        {
             "m_Id": "626a02c6cf184951b97839bfc1bd870b"
         },
         {
@@ -1497,32 +1500,7 @@
     "m_Type": "UnityEditor.ShaderGraph.CategoryData",
     "m_ObjectId": "11c32c5147c14590919a3cb26db1cb72",
     "m_Name": "",
-    "m_ChildObjectList": [
-        {
-            "m_Id": "b38d2e8953c145cd87e142271accd182"
-        },
-        {
-            "m_Id": "3414960e73734faebaf24678b731dc7f"
-        },
-        {
-            "m_Id": "b4bec7f82244481ab6e899788843610a"
-        },
-        {
-            "m_Id": "e32e59a15dc843d18735ca5198abf32d"
-        },
-        {
-            "m_Id": "ab782bf197a447d1811862c039c17052"
-        },
-        {
-            "m_Id": "413c5f810fe64e7b8c01d9744f04229e"
-        },
-        {
-            "m_Id": "155ea3bf7a3f43869e050f63e206ab13"
-        },
-        {
-            "m_Id": "70d972febe6b4f019c82fabca31a1606"
-        }
-    ]
+    "m_ChildObjectList": []
 }
 
 {
@@ -4781,6 +4759,39 @@
     "m_StageCapability": 3,
     "m_Value": false,
     "m_DefaultValue": false
+}
+
+{
+    "m_SGVersion": 0,
+    "m_Type": "UnityEditor.ShaderGraph.CategoryData",
+    "m_ObjectId": "9f8fe70f5e0a47b094ae7570eb0eb221",
+    "m_Name": "Base",
+    "m_ChildObjectList": [
+        {
+            "m_Id": "b38d2e8953c145cd87e142271accd182"
+        },
+        {
+            "m_Id": "3414960e73734faebaf24678b731dc7f"
+        },
+        {
+            "m_Id": "b4bec7f82244481ab6e899788843610a"
+        },
+        {
+            "m_Id": "e32e59a15dc843d18735ca5198abf32d"
+        },
+        {
+            "m_Id": "ab782bf197a447d1811862c039c17052"
+        },
+        {
+            "m_Id": "413c5f810fe64e7b8c01d9744f04229e"
+        },
+        {
+            "m_Id": "155ea3bf7a3f43869e050f63e206ab13"
+        },
+        {
+            "m_Id": "70d972febe6b4f019c82fabca31a1606"
+        }
+    ]
 }
 
 {

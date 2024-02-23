@@ -14,9 +14,9 @@ Material:
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords:
   - _AXIS_DIRECTION_POSITIVE
-  - _AXIS_Z
-  - _DISSOLVE_TYPE_CLASSIC_DOUBLE
-  - _MANIPULATE_SINGLE
+  - _AXIS_X
+  - _DISSOLVE_TYPE_CLASSIC
+  - _MANIPULATE_DOUBLE
   m_InvalidKeywords:
   - _DISSOLVE_TYPE_A
   - _ENUM_C
@@ -53,19 +53,19 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _AXIS: 2
+    - _AXIS: 0
     - _AXIS_DIRECTION: 0
     - _Ambient_Occlusion: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _DISSOLVE_TYPE: 1
+    - _DISSOLVE_TYPE: 0
     - _DissolveLineThickness: 9.6
     - _DissolveStrength: 4
-    - _Dissolve_Value: -1.68
+    - _Dissolve_Value: -1.77
     - _ENUM: 2
     - _Is_Damaged: 0
     - _Is_Dead: 0
-    - _MANIPULATE: 1
+    - _MANIPULATE: 2
     - _Manipulate: 0
     - _Manipulating_Strength: 90
     - _Manipulation_Amount: 18
