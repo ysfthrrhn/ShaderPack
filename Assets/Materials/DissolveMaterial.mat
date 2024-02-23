@@ -12,8 +12,15 @@ Material:
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
-  m_ValidKeywords: []
-  m_InvalidKeywords: []
+  m_ValidKeywords:
+  - _AXIS_DIRECTION_POSITIVE
+  - _AXIS_Z
+  - _DISSOLVE_TYPE_CLASSIC_DOUBLE
+  - _MANIPULATE_SINGLE
+  m_InvalidKeywords:
+  - _DISSOLVE_TYPE_A
+  - _ENUM_C
+  - _ENUM_Z
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -46,22 +53,35 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _AXIS: 2
+    - _AXIS_DIRECTION: 0
     - _Ambient_Occlusion: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _DissolveLineThickness: 0.5
-    - _Dissolve_Value: -0.278
+    - _DISSOLVE_TYPE: 1
+    - _DissolveLineThickness: 9.6
+    - _DissolveStrength: 4
+    - _Dissolve_Value: -1.68
+    - _ENUM: 2
     - _Is_Damaged: 0
     - _Is_Dead: 0
-    - _Metallic: 1
-    - _NormalOffset: 20.26
-    - _NormalStrength: 11.98
+    - _MANIPULATE: 1
+    - _Manipulate: 0
+    - _Manipulating_Strength: 90
+    - _Manipulation_Amount: 18
+    - _Metallic: 0
+    - _NormalOffset: 1
+    - _NormalStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    - _Smoothness: 0.501
+    - _Smoothness: 0
+    - _UseAxis: 1
+    - _x: 1
+    - _y: 0
+    - _z: 0
     m_Colors:
     - _Damage_Color: {r: 1, g: 0, b: 0, a: 1}
-    - _Dissolve_Color: {r: 12.84447, g: 5.2843843, b: 0, a: 1}
+    - _Dissolve_Color: {r: 12.844469, g: 3.8896298, b: 0, a: 1}
     - _Main_Color: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
 --- !u!114 &4600056535323897009
