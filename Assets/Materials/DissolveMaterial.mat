@@ -60,8 +60,8 @@ Material:
     - _BUILTIN_QueueOffset: 0
     - _DISSOLVE_TYPE: 0
     - _DissolveLineThickness: 9.6
-    - _DissolveStrength: 4
-    - _Dissolve_Value: -2
+    - _DissolveStrength: 5
+    - _Dissolve_Value: -1.79
     - _ENUM: 2
     - _Is_Damaged: 0
     - _Is_Dead: 0
