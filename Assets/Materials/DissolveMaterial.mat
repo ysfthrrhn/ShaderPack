@@ -15,8 +15,8 @@ Material:
   m_ValidKeywords:
   - _AXIS_DIRECTION_POSITIVE
   - _AXIS_X
-  - _DISSOLVE_TYPE_CLASSIC
-  - _MANIPULATE_SINGLE
+  - _DISSOLVE_TYPE_CLASSIC_DOUBLE
+  - _MANIPULATE_DOUBLE
   m_InvalidKeywords:
   - _DISSOLVE_TYPE_A
   - _ENUM_C
@@ -24,7 +24,7 @@ Material:
   m_LightmapFlags: 2
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
-  m_CustomRenderQueue: -1
+  m_CustomRenderQueue: 2450
   stringTagMap: {}
   disabledShaderPasses: []
   m_LockedProperties: 
@@ -36,7 +36,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _Normal:
-        m_Texture: {fileID: 2800000, guid: 7c698ee313030466c876f42787f03454, type: 3}
+        m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - unity_Lightmaps:
@@ -55,17 +55,24 @@ Material:
     m_Floats:
     - _AXIS: 0
     - _AXIS_DIRECTION: 0
+    - _AlphaClip: 1
+    - _AlphaToMask: 1
     - _Ambient_Occlusion: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _DISSOLVE_TYPE: 0
+    - _Blend: 0
+    - _BlendModePreserveSpecular: 1
+    - _CastShadows: 1
+    - _Cull: 0
+    - _DISSOLVE_TYPE: 1
     - _DissolveLineThickness: 9.6
-    - _DissolveStrength: 0.11
-    - _Dissolve_Value: 0.6
+    - _DissolveStrength: 4
+    - _Dissolve_Value: -2
+    - _DstBlend: 0
     - _ENUM: 2
     - _Is_Damaged: 0
     - _Is_Dead: 0
-    - _MANIPULATE: 1
+    - _MANIPULATE: 2
     - _Manipulate: 0
     - _Manipulating_Strength: 90
     - _Manipulation_Amount: 18
@@ -74,8 +81,15 @@ Material:
     - _NormalStrength: 1
     - _QueueControl: 0
     - _QueueOffset: 0
+    - _ReceiveShadows: 1
     - _Smoothness: 0
-    - _UseAxis: 0
+    - _SrcBlend: 1
+    - _Surface: 0
+    - _UseAxis: 1
+    - _WorkflowMode: 1
+    - _ZTest: 4
+    - _ZWrite: 1
+    - _ZWriteControl: 0
     - _x: 1
     - _y: 0
     - _z: 0
