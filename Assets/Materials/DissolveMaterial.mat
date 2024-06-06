@@ -15,7 +15,7 @@ Material:
   m_ValidKeywords:
   - _AXIS_DIRECTION_POSITIVE
   - _AXIS_X
-  - _DISSOLVE_TYPE_CLASSIC
+  - _DISSOLVE_TYPE_CLASSIC_DOUBLE
   - _MANIPULATE_DOUBLE
   m_InvalidKeywords:
   - _DISSOLVE_TYPE_A
@@ -58,10 +58,10 @@ Material:
     - _Ambient_Occlusion: 0
     - _BUILTIN_QueueControl: 0
     - _BUILTIN_QueueOffset: 0
-    - _DISSOLVE_TYPE: 0
+    - _DISSOLVE_TYPE: 1
     - _DissolveLineThickness: 9.6
     - _DissolveStrength: 4
-    - _Dissolve_Value: -1.77
+    - _Dissolve_Value: -2
     - _ENUM: 2
     - _Is_Damaged: 0
     - _Is_Dead: 0
