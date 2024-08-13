@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: WaterShaderExampleMaterial
-  m_Shader: {fileID: -6465566751694194690, guid: ee32fe3618d46384881708f922217d9a,
+  m_Name: WaterFlowShaderExampleMaterial
+  m_Shader: {fileID: -6465566751694194690, guid: 0e993b7abc3761e4d875d47e52081db3,
     type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
@@ -53,19 +53,19 @@ Material:
     - _QueueOffset: 0
     - _RippleSpeed: 0.822
     - _RippleStrength: 0
-    - _ShoreOffset: 1.98
+    - _ShoreOffset: -111.02
     - _ShoreStrength: 1
     - _Smoothness: 1
-    - _WaveDenisty: 5.69
-    - _WaveSpeed: 1.25
+    - _WaveDenisty: 10
+    - _WaveSpeed: 1.64
     m_Colors:
     - _Color: {r: 0, g: 0, b: 0, a: 0}
-    - _Emission: {r: 0, g: 0.00077798753, b: 0.0009765625, a: 0}
-    - _FoamColor: {r: 0.9242308, g: 0.9242308, b: 0.9242308, a: 1}
+    - _Emission: {r: 0.32602978, g: 0.1293181, b: 0, a: 1}
+    - _FoamColor: {r: 1, g: 1, b: 1, a: 1}
     - _RippleTile: {r: 1, g: 1, b: 0, a: 0}
-    - _ShoreColor: {r: 0.09825563, g: 0.79167384, b: 0.9056604, a: 0.54509807}
-    - _WaterColor: {r: 0, g: 0.43190646, b: 0.5, a: 0.68235296}
-    - _WaterTile: {r: 2.8, g: 2.8, b: 0, a: 0}
+    - _ShoreColor: {r: 0.8490566, g: 0.39642254, b: 0, a: 0.54509807}
+    - _WaterColor: {r: 1.2075472, g: 0.20436239, b: 0, a: 0.90588236}
+    - _WaterTile: {r: 1, g: 1, b: 0, a: 0}
   m_BuildTextureStacks: []
 --- !u!114 &7908574372049730207
 MonoBehaviour:
